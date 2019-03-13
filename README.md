@@ -5,7 +5,7 @@
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+It is a presentation of the Bikeshare project, how to use Version Control with Git, and how to push the project on Github.
 
 ### Files used
 Include the files used
