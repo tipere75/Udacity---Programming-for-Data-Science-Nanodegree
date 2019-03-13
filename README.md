@@ -8,7 +8,10 @@ Replace the Project Title
 It is a presentation of the Bikeshare project, how to use Version Control with Git, and how to push the project on Github.
 
 ### Files used
-Include the files used
+The files used are :
+- bikeshare_project_PH.py which is the python file
+- chicago.csv, washington.csv, new_york_city.csv which are the datasets but are not uploaded to Github
+- README.md which contains some information about this project
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
