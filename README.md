@@ -14,4 +14,4 @@ The files used are :
 - README.md which contains some information about this project
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The two main sources were the Udacity courses and the DataCamp cheat sheet.
