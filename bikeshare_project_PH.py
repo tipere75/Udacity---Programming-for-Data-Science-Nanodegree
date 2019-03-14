@@ -100,9 +100,9 @@ def station_stats(df):
     start_time = time.time()
 
     # display most commonly used start station
-    pop_start_station = df["Start Station"].mode()[0]
-    pop_start_station_count = df["Start Station"].value_counts()[df["Start Station"].mode()[0]]
-    print("The most commonly used start station is {0} with {1} occurences.".format(pop_start_station, pop_start_station_count))
+    popular_start_station = df["Start Station"].mode()[0]
+    popular_start_station_count = df["Start Station"].value_counts()[df["Start Station"].mode()[0]]
+    print("The most commonly used start station is {0} with {1} occurences.".format(ppopular_start_station, popular_start_station_count))
 
     # display most commonly used end station
     pop_end_station = df["End Station"].mode()[0]
@@ -158,12 +158,12 @@ def user_stats(df):
 
     # Display earliest, most recent, and most common year of birth
     try:
-        earliest_yob = df["Birth Year"].min()
-        most_recent_yob = df["Birth Year"].max()
-        most_common_yob = df["Birth Year"].mode()[0]
-        print("The eldest client was born in {}.".format(earliest_yob))
-        print("The youngest client was born in {}.".format(most_recent_yob))
-        print("The most common year of birth is {}.".format(most_common_yob))
+        earliest_birth_year = df["Birth Year"].min()
+        most_recent_birth_year = df["Birth Year"].max()
+        most_common_birth_year = df["Birth Year"].mode()[0]
+        print("The eldest client was born in {}.".format(earliest_birth_year))
+        print("The youngest client was born in {}.".format(most_recent_birth_year))
+        print("The most common year of birth is {}.".format(most_common_birth_year))
     except:
         print("No birth date is available in our data.")
 
