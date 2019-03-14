@@ -184,6 +184,7 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        #printing the desired statistics
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
@@ -204,6 +205,7 @@ def main():
             while raw_data not in ["yes", "no"]:
                 raw_data = input("Please answer by Yes or No.\n").lower()
 
+        #offering the possibility to restart the analysis from the beginning
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
